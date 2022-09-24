@@ -1,0 +1,104 @@
+
+
+.text-login{
+
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    
+    
+}
+.text-password{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    color:black;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.img-banner{
+    display: flex;
+    border-radius: 50%; /* para arredondar uma imagem*/
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.img-html{
+    justify-content: center;
+    align-items: center;
+    
+}
+.btn-login{
+    display: flex;
+    justify-content: center;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.text-input{
+    justify-content: center;
+    text-align: center;
+    border-radius: 7px;
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+    #fundo-login{
+        
+        margin: 0;
+        background-image:url(imagem/img_fundo2.jpg);  
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+    }
+    @media(max-width:375px){
+        .img-html{
+           
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .text-login{
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+        .text-password{
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+        .btn-login a{
+            display: flex;
+            justify-content: center;   
+            align-items: center;
+            text-decoration: none; 
+           
+        }
+        
+    }
+    @media(max-width: 375px){
+        .img-banner{
+            display: flex;
+            justify-content: center;   
+            align-items: center; 
+            border-radius: 20px;
+        }
+    }
